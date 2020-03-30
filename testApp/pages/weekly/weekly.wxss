@@ -1,0 +1,47 @@
+.photo_Banner{
+  width: 384rpx;
+  height: 216rpx;
+  flex-shrink: 0;
+}
+.font_title{
+  
+  color: teal;
+  font-size: 13px;
+}
+.font_location{
+  color: skyblue;
+  font-size: 12px;
+
+}
+.font_source{
+  font-size: 8px;
+  font-style: italic;
+}
+.font_date{
+  color: lightslategrey;
+  font-size: 8px;
+}
+
+.block{
+  background: lightyellow;
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 230rpx;
+
+ box-shadow: 8rpx 8rpx 8rpx 8rpx rebeccapurple;
+ margin: auto;
+
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 366rpx;
+  position: relative;
+}
+
+.dateText{
+  position: absolute;
+  bottom: 0;
+  right: 20rpx;
+}

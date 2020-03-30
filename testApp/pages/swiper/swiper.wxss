@@ -1,0 +1,59 @@
+.swiper_style{
+  height: 1100rpx;
+  width: 750rpx;
+}
+.image_style{
+  height: 421.875rpx;
+  width: 750rpx;
+}
+.font_title{
+  
+  color: teal;
+  font-size: 25px;
+}
+.font_location{
+  color: skyblue;
+  font-size: 20px;
+
+}
+.font_source{
+  font-size: 8px;
+  font-style: italic;
+}
+.font_date{
+  color: lightslategrey;
+  font-size: 8px;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 600rpx;
+  position: relative;
+}
+
+.dateText{
+  position: absolute;
+  bottom: 0;
+  right: 20rpx;
+}
+.sourceText{
+  position: absolute;
+  bottom: 20rpx;
+  right: 20rpx;
+}
+.return_button{
+  font-size: 50rpx;
+  position: absolute;
+  font-style: italic;
+  background: lightyellow;
+  
+  color: gold;
+  border: 5px solid gold;
+  bottom: 150rpx;
+  right: 325rpx;
+}
+
+.hover{
+  background: deepskyblue;
+}

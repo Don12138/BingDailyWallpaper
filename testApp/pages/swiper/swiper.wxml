@@ -1,0 +1,15 @@
+<view>
+<swiper class="swiper_style" indicator-dots="{{true}}" current="{{7-currentIndex}}">
+<swiper-item class="swiper_item" wx:for="{{[7,6,5,4,3,2,1,0]}}" wx:for-item="i">
+
+<image class="image_style" src="{{images[i].path}}" bindtap="preview" data-index="{{7-i}}"></image>
+<view class="text">
+<text class="font_title">{{images[i].info}}</text>
+<text class="font_location">{{images[i].location}}</text>
+<text class="font_source sourceText">{{images[i].copyright}}</text>
+<text class="font_date dateText">{{images[i].date}}</text>
+<button wx:if="{{i!=0}}" class="return_button" bindtap="f0" hover-class="hover">Back to today</button>
+</view>
+</swiper-item>
+</swiper>
+</view>

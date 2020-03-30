@@ -1,0 +1,18 @@
+<view class="block" wx:for="{{images}}"  bindtap="methodTo" data-index="{{index}}">
+
+<view>
+<image class="photo_Banner" src="{{item.path}}">
+</image>
+</view>
+
+
+<view class="text">
+<text class="font_title">{{item.info}}</text>
+<text class="font_location">{{item.location}}</text>
+<text class="font_source">{{item.copyright}}</text>
+<text class="font_date dateText ">{{item.date}}</text>
+</view>
+</view>
+
+
+

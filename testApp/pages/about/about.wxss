@@ -1,0 +1,20 @@
+.info{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+
+.banner{
+  border-radius: 50%;
+  width: 350rpx;
+  height: 350rpx;
+}
+
+.nav-default{
+  color: blue;
+}
+
+.nav-hover{
+  color: red;
+}

@@ -1,0 +1,30 @@
+{
+  "pages": [
+            "pages/about/about",
+        "pages/weekly/weekly",
+        "pages/swiper/swiper"
+
+
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "About",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/1_1.png",
+        "selectedIconPath": "images/1_2.png"
+      },
+      {
+        "text": "Weekly Wallpaper",
+        "pagePath": "pages/weekly/weekly",
+        "iconPath": "images/2_1.png",
+        "selectedIconPath": "images/2_2.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

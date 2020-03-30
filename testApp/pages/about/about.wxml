@@ -1,0 +1,9 @@
+<view class='container'>
+<image class="banner" src="/images/Bing.jpeg" bindtap="aboutTo"></image>
+<view>
+<text class="info">Bing Daily Wallpaper</text>
+</view>
+</view>
+<!-- <navigator url="/pages/weekly/weekly" 
+hover-class="nav-hover"
+class="info nav-default" style="display:inline">Wallpaper</navigator> -->
