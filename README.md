@@ -1,2 +1,2 @@
 # BingDailyWallpaper
-A wechar applet to show the daily bing wallpaper
+A wechat applet to show the daily bing wallpaper
