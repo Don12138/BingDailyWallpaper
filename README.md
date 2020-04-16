@@ -1,2 +1,2 @@
 # BingDailyWallpaper
-I made this for practice the contest of WeChat applet
+A wechar applet to show the daily bing wallpaper
