@@ -1,0 +1,35 @@
+<view class="background">
+  <block wx:if="{{!has}}">
+    <view style="display: flex;flex-direction: column;align-items: center;">
+      <text style="font-size:30rpx;">未查询到歌曲</text>
+    </view>
+    
+  </block>
+
+  <block wx:else>
+    <view class="colum">
+
+      <view class="each">
+
+        <view class="name">歌名</view>
+        <view class="name">歌手</view>
+        <view class="name">专辑</view>
+
+      </view>
+
+      <view style="height:1vh"></view>
+
+      <view wx:for="{{songList}}">
+        <view class="each" bindtap="choose" data-index="{{index}}" hover-class="hover_each">
+          <view class="name">{{item.NAME}}</view>
+          <view class="name">{{item.ARTIST}}</view>
+          <view class="name">{{item.ALBUM}}</view>
+        </view>
+        <view style="height:1vh"></view>
+      </view>
+
+      <view style="height:1vh"></view>
+
+    </view>
+  </block>
+  </view>

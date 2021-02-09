@@ -1,0 +1,11 @@
+<view class="background">
+<view class="button" hover-class="hover_button" bindtap="change">
+<text style="font-size:30rpx;">{{stop?'播放':'暂停'}}</text>
+</view>
+<view class="button" hover-class="hover_button" bindtap="copy" style="display: flex;flex-direction: column">
+
+<text style="font-size:30rpx;">获取下载地址</text>
+<text style="font-size:30rpx;">(ios系统请在safari中打开)</text>
+
+</view>
+</view>

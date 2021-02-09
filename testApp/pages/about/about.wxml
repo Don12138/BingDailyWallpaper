@@ -1,9 +1,4 @@
-<view class='container'>
-<image class="banner" src="/images/Bing.jpeg" bindtap="aboutTo"></image>
-<view>
-<text class="info">Bing Daily Wallpaper</text>
+<view class="setting" >
+<image src="/images/Bing.jpeg" class="image" bindtouchstart="tostart" bindtouchend="music">
+</image>
 </view>
-</view>
-<!-- <navigator url="/pages/weekly/weekly" 
-hover-class="nav-hover"
-class="info nav-default" style="display:inline">Wallpaper</navigator> -->

@@ -1,0 +1,32 @@
+<view class="background">
+  <block>
+    <view style="display: flex;flex-direction: column;">
+      <view style="  display: flex;flex-direction: column;align-items: center;">
+        <view style="display: flex;flex-direction: row;">
+          <text>音乐源：</text>
+          <text class="kuwo">酷我音乐</text>
+        </view>
+        <view style="height:5vh"></view>
+        <input placeholder="请输入歌名" style="text-align:center" confirm-type="done" bindinput="show" auto-focus></input>
+        <view style="height:2vh"></view>
+        <text style="font-size = 30rpx;font-color:#0000009d">(不要带空格)</text>
+        <view style="height:5vh"></view>
+        <button class="button" hover-class="hover_button" bindtap="to">确定</button>
+      </view>
+      <view style="height:7vh"></view>
+      <view class="string"></view>
+      <view style="height:7vh"></view>
+      <view style="  display: flex;flex-direction: column;align-items: center;">
+        
+        <view style="display: flex;flex-direction: row;">
+          <text>音乐源：</text>
+          <text class="wyyyy">网易云音乐</text>
+        </view>
+        <view style="height:5vh"></view>
+        <input maxlength="100" placeholder="请粘贴音乐分享链接或输入音乐id" style="text-align:center;width:100vw" confirm-type="done" bindinput="show" auto-focus></input>
+        <view style="height:5vh"></view>
+        <button class="button" hover-class="hover_button" bindtap="towyyyy">确定</button>
+      </view>
+    </view>
+  </block>
+</view>

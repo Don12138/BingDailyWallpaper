@@ -1,14 +1,18 @@
 {
   "pages": [
-            "pages/about/about",
-        "pages/weekly/weekly",
-        "pages/swiper/swiper"
-
+    
+    "pages/about/about",
+    "pages/music/music",
+    "pages/listen/listen",
+    "pages/cur/cur",
+    "pages/weekly/weekly",
+    "pages/swiper/swiper"
+    
+    
 
   ],
   "tabBar": {
-    "list": [
-      {
+    "list": [{
         "text": "About",
         "pagePath": "pages/about/about",
         "iconPath": "images/1_1.png",

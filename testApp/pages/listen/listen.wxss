@@ -1,0 +1,31 @@
+.background{
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+}
+.button{
+  background: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  border: 1rpx solid #0000009d;
+  height: 30vh;
+  border-radius: 20rpx;
+  width: 50vw;
+}
+.hover_button{ 
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  height: 30vh;
+  border-radius: 20rpx;
+  border: 1rpx solid #0000009d;
+  width: 50vw;
+}
